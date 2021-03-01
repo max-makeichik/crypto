@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/CurrenciesFragment">
+
+    <fragment
+        android:id="@+id/CurrenciesFragment"
+        android:name="com.crypto.ui.currencies.CurrenciesFragment"
+        android:label="@string/currencies_fragment_label"
+        tools:layout="@layout/fragment_currencies">
+
+        <action
+            android:id="@+id/action_CurrenciesFragment_to_CurrencyFragment"
+            app:destination="@id/CurrencyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CurrencyFragment"
+        android:name="com.crypto.ui.currency.CurrencyFragment"
+        android:label="@string/currency_fragment_label"
+        tools:layout="@layout/fragment_currency">
+
+        <action
+            android:id="@+id/action_CurrencyFragment_to_CurrenciesFragment"
+            app:destination="@id/CurrenciesFragment" />
+    </fragment>
+</navigation>

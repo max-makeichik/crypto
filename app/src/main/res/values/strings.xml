@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Crypto</string>
+
+    <!-- navigation -->
+    <string name="currencies_fragment_label">Currencies</string>
+    <string name="currency_fragment_label">Currency</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="time_frame_month">1M</string>
+
+</resources>

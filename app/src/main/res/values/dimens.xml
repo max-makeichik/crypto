@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="quarter_pad">2dp</dimen>
+    <dimen name="half_pad">4dp</dimen>
+    <dimen name="single_pad">8dp</dimen>
+    <dimen name="single_quarter_pad">10dp</dimen>
+    <dimen name="double_pad">16dp</dimen>
+    <dimen name="price_text_size">15sp</dimen>
+    <dimen name="currency_price_text_size">16sp</dimen>
+    <dimen name="link_text_size">14sp</dimen>
+    <dimen name="time_frame_text_size">14sp</dimen>
+
+</resources>
